@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventBooking.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7460a9a65d011651dc0040e0975480ce0ba4589f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f826c574bbe2ebfd165d468a501eedd3004d57d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventBooking.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventBooking.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

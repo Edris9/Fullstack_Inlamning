@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "EventBooking.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/EventBooking.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventBooking.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EventBooking.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EventBooking.Domain/EventBooking.Domain.csproj",
+      "msbuildProject": "../EventBooking.Domain/EventBooking.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "EventBooking.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Edris\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\c#\\Fullstack_Inlämning\\backend\\EventBooking.Domain\\EventBooking.Domain.csproj": {
+              "projectPath": "D:\\c#\\Fullstack_Inlämning\\backend\\EventBooking.Domain\\EventBooking.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

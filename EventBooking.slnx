@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/backend/">
+    <Project Path="backend/EventBooking.API/EventBooking.API.csproj" />
+    <Project Path="backend/EventBooking.Application/EventBooking.Application.csproj" />
+    <Project Path="backend/EventBooking.Domain/EventBooking.Domain.csproj" />
+    <Project Path="backend/EventBooking.Infrastructure/EventBooking.Infrastructure.csproj" />
+    <Project Path="backend/EventBooking.Tests/EventBooking.Tests.csproj" />
+  </Folder>
+  <Folder Name="/frontend/">
+    <Project Path="frontend/EventBooking.Blazor/EventBooking.Blazor.csproj" />
+  </Folder>
+</Solution>

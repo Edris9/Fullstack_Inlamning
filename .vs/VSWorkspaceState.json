@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend"
+    "\\backend",
+    "\\backend\\EventBooking.Application",
+    "\\backend\\EventBooking.Application\\Interfaces",
+    "\\backend\\EventBooking.Application\\Services",
+    "\\backend\\EventBooking.Domain",
+    "\\backend\\EventBooking.Infrastructure",
+    "\\backend\\EventBooking.Infrastructure\\Data",
+    "\\frontend\\EventBooking.Blazor"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\backend\\EventBooking.Infrastructure\\Data",
   "PreviewInSolutionExplorer": false
 }

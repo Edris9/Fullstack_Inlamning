@@ -2,14 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\backend",
-    "\\backend\\EventBooking.Application",
-    "\\backend\\EventBooking.Application\\Interfaces",
-    "\\backend\\EventBooking.Application\\Services",
-    "\\backend\\EventBooking.Domain",
-    "\\backend\\EventBooking.Infrastructure",
+    "\\backend\\EventBooking.API\\Properties",
     "\\backend\\EventBooking.Infrastructure\\Data",
-    "\\frontend\\EventBooking.Blazor"
+    "\\backend\\EventBooking.Infrastructure\\Repositories"
   ],
-  "SelectedNode": "\\backend\\EventBooking.Infrastructure\\Data",
+  "SelectedNode": "\\backend",
   "PreviewInSolutionExplorer": false
 }

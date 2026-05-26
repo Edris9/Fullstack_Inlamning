@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventBooking.Blazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+018a4c810ae83a61ce3e38a0e4adace274d4be60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5503f7811b46f769bbadb92a427a62ca540ee5ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventBooking.Blazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventBooking.Blazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

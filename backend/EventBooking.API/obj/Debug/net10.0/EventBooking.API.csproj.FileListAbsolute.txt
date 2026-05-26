@@ -1,12 +1,3 @@
-D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.csproj.AssemblyReference.cache
-D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\rpswa.dswa.cache.json
-D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.GeneratedMSBuildEditorConfig.editorconfig
-D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.AssemblyInfoInputs.cache
-D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.AssemblyInfo.cs
-D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.csproj.CoreCompileInputs.cache
-D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.MvcApplicationPartsAssemblyInfo.cs
-D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.MvcApplicationPartsAssemblyInfo.cache
-D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.sourcelink.json
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\bin\Debug\net10.0\appsettings.Development.json
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\bin\Debug\net10.0\appsettings.json
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\bin\Debug\net10.0\EventBooking.API.staticwebassets.endpoints.json
@@ -151,6 +142,15 @@ D:\c#\Fullstack_Inlämning\backend\EventBooking.API\bin\Debug\net10.0\EventBooki
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\bin\Debug\net10.0\EventBooking.Application.pdb
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\bin\Debug\net10.0\EventBooking.Infrastructure.pdb
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\bin\Debug\net10.0\EventBooking.Domain.pdb
+D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.csproj.AssemblyReference.cache
+D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.AssemblyInfoInputs.cache
+D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.AssemblyInfo.cs
+D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.csproj.CoreCompileInputs.cache
+D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.MvcApplicationPartsAssemblyInfo.cs
+D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.MvcApplicationPartsAssemblyInfo.cache
+D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.sourcelink.json
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -160,6 +160,7 @@ D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\staticweba
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\staticwebassets.development.json
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\swae.build.ex.cache
+D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBoo.7B54EFF2.Up2Date
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\EventBooking.API.dll
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net10.0\refint\EventBooking.API.dll

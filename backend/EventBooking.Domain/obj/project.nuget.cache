@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hJ2XGleWxPI=",
+  "dgSpecHash": "0G2/xAarfVA=",
   "success": true,
   "projectFilePath": "D:\\c#\\Fullstack_Inlämning\\backend\\EventBooking.Domain\\EventBooking.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Edris\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.12\\microsoft.windowsdesktop.app.ref.9.0.12.nupkg.sha512",
+    "C:\\Users\\Edris\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.12\\microsoft.netcore.app.ref.9.0.12.nupkg.sha512",
+    "C:\\Users\\Edris\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.12\\microsoft.aspnetcore.app.ref.9.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

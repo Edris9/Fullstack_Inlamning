@@ -1,6 +1,8 @@
 using EventBooking.Application.Interfaces;
 using EventBooking.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace EventBooking.Infrastructure.Repositories;
 

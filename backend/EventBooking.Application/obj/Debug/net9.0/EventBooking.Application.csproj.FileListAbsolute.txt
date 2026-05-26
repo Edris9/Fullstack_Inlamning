@@ -1,0 +1,16 @@
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\bin\Debug\net9.0\EventBooking.Application.deps.json
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\bin\Debug\net9.0\EventBooking.Application.dll
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\bin\Debug\net9.0\EventBooking.Application.pdb
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\bin\Debug\net9.0\EventBooking.Domain.dll
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\bin\Debug\net9.0\EventBooking.Domain.pdb
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\obj\Debug\net9.0\EventBooking.Application.csproj.AssemblyReference.cache
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\obj\Debug\net9.0\EventBooking.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\obj\Debug\net9.0\EventBooking.Application.AssemblyInfoInputs.cache
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\obj\Debug\net9.0\EventBooking.Application.AssemblyInfo.cs
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\obj\Debug\net9.0\EventBooking.Application.csproj.CoreCompileInputs.cache
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\obj\Debug\net9.0\EventBooking.Application.sourcelink.json
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\obj\Debug\net9.0\EventBoo.DC5207BD.Up2Date
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\obj\Debug\net9.0\EventBooking.Application.dll
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\obj\Debug\net9.0\refint\EventBooking.Application.dll
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\obj\Debug\net9.0\EventBooking.Application.pdb
+D:\c#\Fullstack_Inlämning\backend\EventBooking.Application\obj\Debug\net9.0\ref\EventBooking.Application.dll

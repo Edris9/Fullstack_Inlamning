@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="67f8d007-5900-4b34-b6cd-df05b1f46828" name="Edris@EDRIS-LENOVO 2026-05-26 14:29:07" runUser="EDRIS-LENOVO\Edris" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-05-26T14:29:07.0940044+02:00" queuing="2026-05-26T14:29:07.0940050+02:00" start="2026-05-26T14:29:06.2987629+02:00" finish="2026-05-26T14:29:07.1012991+02:00" />
+  <TestSettings name="default" id="c49f8b04-52bd-4199-b9be-e31cebbc67a9">
+    <Deployment runDeploymentRoot="Edris_EDRIS-LENOVO_2026-05-26_14_29_07" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="2f28aba8-e559-4a49-b9e1-a14b79d63184" testId="a504d6ed-53a4-65d0-b3cf-378a781f1bff" testName="EventBooking.Tests.LocationServiceTests.UpdateLocationAsync_NonExistingId_DoesNotCallUpdate" computerName="EDRIS-LENOVO" duration="00:00:00.0006549" startTime="2026-05-26T14:29:06.9966309+02:00" endTime="2026-05-26T14:29:06.9970574+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f28aba8-e559-4a49-b9e1-a14b79d63184" />
+    <UnitTestResult executionId="a7279cd9-235c-4d1b-a55d-a92ca520bcf7" testId="1fd9bf1d-b602-fcd6-b790-7084f3525fe5" testName="EventBooking.Tests.LocationServiceTests.CreateLocationAsync_ValidDto_CallsRepository" computerName="EDRIS-LENOVO" duration="00:00:00.0011627" startTime="2026-05-26T14:29:06.9948864+02:00" endTime="2026-05-26T14:29:06.9956796+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7279cd9-235c-4d1b-a55d-a92ca520bcf7" />
+    <UnitTestResult executionId="9abc4231-c044-4e64-be90-4014b2d75b7f" testId="fb986377-3963-a5e2-bd71-3afea767e318" testName="EventBooking.Tests.LocationServiceTests.GetAllLocationsAsync_ReturnsAllLocations" computerName="EDRIS-LENOVO" duration="00:00:00.0696626" startTime="2026-05-26T14:29:06.9108193+02:00" endTime="2026-05-26T14:29:06.9857990+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9abc4231-c044-4e64-be90-4014b2d75b7f" />
+    <UnitTestResult executionId="a5fb0060-bd31-4455-aafe-e6ad6c8319aa" testId="85d6d681-f412-2f67-0816-00039680f491" testName="EventBooking.Tests.LocationServiceTests.UpdateLocationAsync_ExistingId_CallsUpdate" computerName="EDRIS-LENOVO" duration="00:00:00.0044541" startTime="2026-05-26T14:29:06.9945484+02:00" endTime="2026-05-26T14:29:06.9946028+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5fb0060-bd31-4455-aafe-e6ad6c8319aa" />
+    <UnitTestResult executionId="bde989c4-df0f-4241-b8fd-07cefbe8af9e" testId="6e34c630-125a-d36f-7290-93486f7d54b8" testName="EventBooking.Tests.LocationServiceTests.GetLocationByIdAsync_ExistingId_ReturnsLocation" computerName="EDRIS-LENOVO" duration="00:00:00.0011798" startTime="2026-05-26T14:29:06.9947329+02:00" endTime="2026-05-26T14:29:06.9947739+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bde989c4-df0f-4241-b8fd-07cefbe8af9e" />
+    <UnitTestResult executionId="ae023196-0de1-45f8-bd96-8e71b836fcbc" testId="42d82767-2b8f-1dbb-1247-09daa396dcc4" testName="EventBooking.Tests.LocationServiceTests.GetLocationByIdAsync_NonExistingId_ReturnsNull" computerName="EDRIS-LENOVO" duration="00:00:00.0027315" startTime="2026-05-26T14:29:06.9938280+02:00" endTime="2026-05-26T14:29:06.9939200+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae023196-0de1-45f8-bd96-8e71b836fcbc" />
+    <UnitTestResult executionId="7a7ea94d-0536-442b-ac7a-9473745cf74b" testId="632cef2b-b834-51f8-d531-07047b96c14f" testName="EventBooking.Tests.LocationServiceTests.DeleteLocationAsync_ValidId_CallsRepository" computerName="EDRIS-LENOVO" duration="00:00:00.0006350" startTime="2026-05-26T14:29:06.9959310+02:00" endTime="2026-05-26T14:29:06.9963963+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a7ea94d-0536-442b-ac7a-9473745cf74b" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="EventBooking.Tests.LocationServiceTests.GetLocationByIdAsync_NonExistingId_ReturnsNull" storage="d:\c#\fullstack_inlämning\backend\eventbooking.tests\bin\debug\net9.0\eventbooking.tests.dll" id="42d82767-2b8f-1dbb-1247-09daa396dcc4">
+      <Execution id="ae023196-0de1-45f8-bd96-8e71b836fcbc" />
+      <TestMethod codeBase="D:\c#\Fullstack_Inlämning\backend\EventBooking.Tests\bin\Debug\net9.0\EventBooking.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EventBooking.Tests.LocationServiceTests" name="GetLocationByIdAsync_NonExistingId_ReturnsNull" />
+    </UnitTest>
+    <UnitTest name="EventBooking.Tests.LocationServiceTests.GetLocationByIdAsync_ExistingId_ReturnsLocation" storage="d:\c#\fullstack_inlämning\backend\eventbooking.tests\bin\debug\net9.0\eventbooking.tests.dll" id="6e34c630-125a-d36f-7290-93486f7d54b8">
+      <Execution id="bde989c4-df0f-4241-b8fd-07cefbe8af9e" />
+      <TestMethod codeBase="D:\c#\Fullstack_Inlämning\backend\EventBooking.Tests\bin\Debug\net9.0\EventBooking.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EventBooking.Tests.LocationServiceTests" name="GetLocationByIdAsync_ExistingId_ReturnsLocation" />
+    </UnitTest>
+    <UnitTest name="EventBooking.Tests.LocationServiceTests.DeleteLocationAsync_ValidId_CallsRepository" storage="d:\c#\fullstack_inlämning\backend\eventbooking.tests\bin\debug\net9.0\eventbooking.tests.dll" id="632cef2b-b834-51f8-d531-07047b96c14f">
+      <Execution id="7a7ea94d-0536-442b-ac7a-9473745cf74b" />
+      <TestMethod codeBase="D:\c#\Fullstack_Inlämning\backend\EventBooking.Tests\bin\Debug\net9.0\EventBooking.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EventBooking.Tests.LocationServiceTests" name="DeleteLocationAsync_ValidId_CallsRepository" />
+    </UnitTest>
+    <UnitTest name="EventBooking.Tests.LocationServiceTests.GetAllLocationsAsync_ReturnsAllLocations" storage="d:\c#\fullstack_inlämning\backend\eventbooking.tests\bin\debug\net9.0\eventbooking.tests.dll" id="fb986377-3963-a5e2-bd71-3afea767e318">
+      <Execution id="9abc4231-c044-4e64-be90-4014b2d75b7f" />
+      <TestMethod codeBase="D:\c#\Fullstack_Inlämning\backend\EventBooking.Tests\bin\Debug\net9.0\EventBooking.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EventBooking.Tests.LocationServiceTests" name="GetAllLocationsAsync_ReturnsAllLocations" />
+    </UnitTest>
+    <UnitTest name="EventBooking.Tests.LocationServiceTests.UpdateLocationAsync_ExistingId_CallsUpdate" storage="d:\c#\fullstack_inlämning\backend\eventbooking.tests\bin\debug\net9.0\eventbooking.tests.dll" id="85d6d681-f412-2f67-0816-00039680f491">
+      <Execution id="a5fb0060-bd31-4455-aafe-e6ad6c8319aa" />
+      <TestMethod codeBase="D:\c#\Fullstack_Inlämning\backend\EventBooking.Tests\bin\Debug\net9.0\EventBooking.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EventBooking.Tests.LocationServiceTests" name="UpdateLocationAsync_ExistingId_CallsUpdate" />
+    </UnitTest>
+    <UnitTest name="EventBooking.Tests.LocationServiceTests.UpdateLocationAsync_NonExistingId_DoesNotCallUpdate" storage="d:\c#\fullstack_inlämning\backend\eventbooking.tests\bin\debug\net9.0\eventbooking.tests.dll" id="a504d6ed-53a4-65d0-b3cf-378a781f1bff">
+      <Execution id="2f28aba8-e559-4a49-b9e1-a14b79d63184" />
+      <TestMethod codeBase="D:\c#\Fullstack_Inlämning\backend\EventBooking.Tests\bin\Debug\net9.0\EventBooking.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EventBooking.Tests.LocationServiceTests" name="UpdateLocationAsync_NonExistingId_DoesNotCallUpdate" />
+    </UnitTest>
+    <UnitTest name="EventBooking.Tests.LocationServiceTests.CreateLocationAsync_ValidDto_CallsRepository" storage="d:\c#\fullstack_inlämning\backend\eventbooking.tests\bin\debug\net9.0\eventbooking.tests.dll" id="1fd9bf1d-b602-fcd6-b790-7084f3525fe5">
+      <Execution id="a7279cd9-235c-4d1b-a55d-a92ca520bcf7" />
+      <TestMethod codeBase="D:\c#\Fullstack_Inlämning\backend\EventBooking.Tests\bin\Debug\net9.0\EventBooking.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EventBooking.Tests.LocationServiceTests" name="CreateLocationAsync_ValidDto_CallsRepository" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a504d6ed-53a4-65d0-b3cf-378a781f1bff" executionId="2f28aba8-e559-4a49-b9e1-a14b79d63184" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1fd9bf1d-b602-fcd6-b790-7084f3525fe5" executionId="a7279cd9-235c-4d1b-a55d-a92ca520bcf7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb986377-3963-a5e2-bd71-3afea767e318" executionId="9abc4231-c044-4e64-be90-4014b2d75b7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85d6d681-f412-2f67-0816-00039680f491" executionId="a5fb0060-bd31-4455-aafe-e6ad6c8319aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e34c630-125a-d36f-7290-93486f7d54b8" executionId="bde989c4-df0f-4241-b8fd-07cefbe8af9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42d82767-2b8f-1dbb-1247-09daa396dcc4" executionId="ae023196-0de1-45f8-bd96-8e71b836fcbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="632cef2b-b834-51f8-d531-07047b96c14f" executionId="7a7ea94d-0536-442b-ac7a-9473745cf74b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 9.0.16)&#xD;
+[xUnit.net 00:00:00.08]   Discovering: EventBooking.Tests&#xD;
+[xUnit.net 00:00:00.11]   Discovered:  EventBooking.Tests&#xD;
+[xUnit.net 00:00:00.13]   Starting:    EventBooking.Tests&#xD;
+[xUnit.net 00:00:00.24]   Finished:    EventBooking.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

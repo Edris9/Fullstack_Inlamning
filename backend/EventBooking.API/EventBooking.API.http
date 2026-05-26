@@ -1,36 +1,6 @@
-@baseUrl = http://localhost:5183
+@EventBooking.API_HostAddress = http://localhost:5183
 
-### Hämta alla locations
-GET {{baseUrl}}/api/Locations
+GET {{EventBooking.API_HostAddress}}/weatherforecast/
+Accept: application/json
 
-### Skapa location
-POST {{baseUrl}}/api/Locations
-Content-Type: application/json
-
-{
-  "name": "Avicii Arena",
-  "city": "Stockholm",
-  "address": "Globentorget 2"
-}
-
-### Hämta alla events
-GET {{baseUrl}}/api/Events
-
-### Skapa event
-POST {{baseUrl}}/api/Events
-Content-Type: application/json
-
-{
-  "title": "Konsert",
-  "description": "Rolig kväll",
-  "date": "2026-06-01T19:00:00.000Z",
-  "ticketPrice": 100,
-  "capacity": 500,
-  "locationId": 1
-}
-
-### Hämta event med id
-GET {{baseUrl}}/api/Events/1
-
-### Ta bort event
-DELETE {{baseUrl}}/api/Events/1
+###

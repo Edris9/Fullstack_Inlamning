@@ -162,4 +162,3 @@ D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net9.0\refint\Even
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net9.0\EventBooking.API.pdb
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net9.0\EventBooking.API.genruntimeconfig.cache
 D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net9.0\ref\EventBooking.API.dll
-D:\c#\Fullstack_Inlämning\backend\EventBooking.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

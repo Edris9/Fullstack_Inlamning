@@ -1,0 +1,137 @@
+﻿@page "/locations"
+@inject HttpClient Http
+
+<h3>Platser</h3>
+
+@if (errorMessage != null)
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+
+@if (locations == null)
+{
+    <p>Laddar...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Namn</th>
+                <th>Stad</th>
+                <th>Adress</th>
+                <th>Åtgärder</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var loc in locations)
+            {
+                <tr>
+                    <td>@loc.Name</td>
+                    <td>@loc.City</td>
+                    <td>@loc.Address</td>
+                    <td>
+                        <button class="btn btn-warning btn-sm" @onclick="() => EditLocation(loc)">Redigera</button>
+                        <button class="btn btn-danger btn-sm" @onclick="() => DeleteLocation(loc.Id)">Ta bort</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<h4>@(editMode ? "Redigera plats" : "Lägg till ny plats")</h4>
+
+<div class="mb-3">
+    <input class="form-control mb-2" placeholder="Namn" @bind="form.Name" />
+    <input class="form-control mb-2" placeholder="Stad" @bind="form.City" />
+    <input class="form-control mb-2" placeholder="Adress" @bind="form.Address" />
+    <button class="btn btn-primary" @onclick="SaveLocation">@(editMode ? "Uppdatera" : "Spara")</button>
+    @if (editMode)
+    {
+        <button class="btn btn-secondary ms-2" @onclick="CancelEdit">Avbryt</button>
+    }
+</div>
+
+@code {
+    private List<LocationDto>? locations;
+    private LocationDto form = new();
+    private bool editMode = false;
+    private int editId = 0;
+    private string? errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadLocations();
+    }
+
+    private async Task LoadLocations()
+    {
+        try
+        {
+            locations = await Http.GetFromJsonAsync<List<LocationDto>>("api/Locations");
+        }
+        catch
+        {
+            errorMessage = "Kunde inte ansluta till API:t!";
+        }
+    }
+
+    private async Task SaveLocation()
+    {
+        try
+        {
+            if (editMode)
+            {
+                await Http.PutAsJsonAsync($"api/Locations/{editId}", form);
+                editMode = false;
+                editId = 0;
+            }
+            else
+            {
+                await Http.PostAsJsonAsync("api/Locations", form);
+            }
+            form = new();
+            await LoadLocations();
+        }
+        catch
+        {
+            errorMessage = "Något gick fel!";
+        }
+    }
+
+    private void EditLocation(LocationDto loc)
+    {
+        editMode = true;
+        editId = loc.Id;
+        form = new LocationDto { Name = loc.Name, City = loc.City, Address = loc.Address };
+    }
+
+    private async Task DeleteLocation(int id)
+    {
+        try
+        {
+            await Http.DeleteAsync($"api/Locations/{id}");
+            await LoadLocations();
+        }
+        catch
+        {
+            errorMessage = "Kunde inte ta bort platsen!";
+        }
+    }
+
+    private void CancelEdit()
+    {
+        editMode = false;
+        editId = 0;
+        form = new();
+    }
+
+    public class LocationDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string City { get; set; } = string.Empty;
+        public string Address { get; set; } = string.Empty;
+    }
+}

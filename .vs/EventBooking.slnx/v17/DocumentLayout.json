@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\c#\\Fullstack_Inl\u00E4mning\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A679FF-8088-F442-4814-F8BDDF0F7CFA}|backend\\EventBooking.API\\EventBooking.API.csproj|d:\\c#\\fullstack_inl\u00E4mning\\backend\\eventbooking.api\\eventbooking.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B3A679FF-8088-F442-4814-F8BDDF0F7CFA}|backend\\EventBooking.API\\EventBooking.API.csproj|solutionrelative:backend\\eventbooking.api\\eventbooking.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +43,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cde3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventBooking.API.http",
+              "DocumentMoniker": "D:\\c#\\Fullstack_Inl\u00E4mning\\backend\\EventBooking.API\\EventBooking.API.http",
+              "RelativeDocumentMoniker": "backend\\EventBooking.API\\EventBooking.API.http",
+              "ToolTip": "D:\\c#\\Fullstack_Inl\u00E4mning\\backend\\EventBooking.API\\EventBooking.API.http",
+              "RelativeToolTip": "backend\\EventBooking.API\\EventBooking.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-05-26T13:10:22.173Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "EventBooking.Blazor",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-Emtaq48RUu5d+UtglfWucg4MiTL4qx3P4u65fCUvokU=",
+    "hash": "sha256-KkLQxybWQck++62wEMPZoOCaYR3FyfTjTl01w4muy+c=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.87vtjjdetb.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "EventBooking.Blazor.wasm",
-        "name": "EventBooking.Blazor.i9htkvvp8z.wasm",
-        "integrity": "sha256-ppyKV0cA8nIWbC5xfomzZHCfUzoex2G2OyEMO61HESQ=",
+        "name": "EventBooking.Blazor.nru647j1sp.wasm",
+        "integrity": "sha256-Q1HSNCd+ATQrT/30t+j9iRUCwBr4eQezLyGK5M2w9L4=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "EventBooking.Blazor.pdb",
-        "name": "EventBooking.Blazor.xiiu7tqibz.pdb",
-        "integrity": "sha256-SdQsOT57tKIdM2Xot7qMEINWwt13qCkSG4hsVyNzBwU=",
+        "name": "EventBooking.Blazor.skeh1n7fat.pdb",
+        "integrity": "sha256-DPFXAKZJfOZGhxjHgE+ICdA17cfsaUZcsopmOOkgm4g=",
         "cache": "force-cache"
       }
     ],

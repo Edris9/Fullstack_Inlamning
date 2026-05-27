@@ -4,4 +4,23 @@
 
 <h1>Hello, world!</h1>
 
+<button class="btn btn-primary" @onclick="GoToLocations">Gå till platser</button>
+<button class="btn btn-secondary" @onclick="GoToEvents">Gå till evenemang</button>	
+
+
 Welcome to your new app.
+
+@code {
+    private void GoToLocations()
+    {
+        NavigationManager.NavigateTo("/locations");
+    }
+
+    private void GoToEvents()
+    {
+        NavigationManager.NavigateTo("/events");
+    }
+
+    [Inject]
+    private NavigationManager NavigationManager { get; set; } = default!;
+}

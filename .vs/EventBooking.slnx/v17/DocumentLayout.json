@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\c#\\Fullstack_Inl\u00E4mning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|d:\\c#\\fullstack_inl\u00E4mning\\frontend\\eventbooking.blazor\\pages\\locations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|solutionrelative:frontend\\eventbooking.blazor\\pages\\locations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|d:\\c#\\fullstack_inl\u00E4mning\\frontend\\eventbooking.blazor\\pages\\events.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|solutionrelative:frontend\\eventbooking.blazor\\pages\\events.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|d:\\c#\\fullstack_inl\u00E4mning\\frontend\\eventbooking.blazor\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|solutionrelative:frontend\\eventbooking.blazor\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|d:\\c#\\fullstack_inl\u00E4mning\\frontend\\eventbooking.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|solutionrelative:frontend\\eventbooking.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|d:\\c#\\fullstack_inl\u00E4mning\\frontend\\eventbooking.blazor\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|solutionrelative:frontend\\eventbooking.blazor\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|d:\\c#\\fullstack_inl\u00E4mning\\frontend\\eventbooking.blazor\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|solutionrelative:frontend\\eventbooking.blazor\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|d:\\c#\\fullstack_inl\u00E4mning\\frontend\\eventbooking.blazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|solutionrelative:frontend\\eventbooking.blazor\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|d:\\c#\\fullstack_inl\u00E4mning\\frontend\\eventbooking.blazor\\pages\\locations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE4C27BD-6744-4F77-26E8-A10E04650D35}|frontend\\EventBooking.Blazor\\EventBooking.Blazor.csproj|solutionrelative:frontend\\eventbooking.blazor\\pages\\locations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3A679FF-8088-F442-4814-F8BDDF0F7CFA}|backend\\EventBooking.API\\EventBooking.API.csproj|d:\\c#\\fullstack_inl\u00E4mning\\backend\\eventbooking.api\\eventbooking.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,33 +74,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "frontend\\EventBooking.Blazor\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "frontend\\EventBooking.Blazor\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T14:16:13.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Events.razor",
+              "DocumentMoniker": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\Pages\\Events.razor",
+              "RelativeDocumentMoniker": "frontend\\EventBooking.Blazor\\Pages\\Events.razor",
+              "ToolTip": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\Pages\\Events.razor",
+              "RelativeToolTip": "frontend\\EventBooking.Blazor\\Pages\\Events.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T14:12:41.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "frontend\\EventBooking.Blazor\\Pages\\Home.razor",
+              "ToolTip": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\Pages\\Home.razor",
+              "RelativeToolTip": "frontend\\EventBooking.Blazor\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T14:10:00.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\_Imports.razor",
+              "RelativeDocumentMoniker": "frontend\\EventBooking.Blazor\\_Imports.razor",
+              "ToolTip": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\_Imports.razor",
+              "RelativeToolTip": "frontend\\EventBooking.Blazor\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T14:09:42.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\App.razor",
+              "RelativeDocumentMoniker": "frontend\\EventBooking.Blazor\\App.razor",
+              "ToolTip": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\App.razor",
+              "RelativeToolTip": "frontend\\EventBooking.Blazor\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T14:09:38.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Locations.razor",
               "DocumentMoniker": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\Pages\\Locations.razor",
               "RelativeDocumentMoniker": "frontend\\EventBooking.Blazor\\Pages\\Locations.razor",
               "ToolTip": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\Pages\\Locations.razor",
               "RelativeToolTip": "frontend\\EventBooking.Blazor\\Pages\\Locations.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAIgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-26T13:40:43.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\Program.cs",
               "RelativeDocumentMoniker": "frontend\\EventBooking.Blazor\\Program.cs",
               "ToolTip": "D:\\c#\\Fullstack_Inl\u00E4mning\\frontend\\EventBooking.Blazor\\Program.cs",
               "RelativeToolTip": "frontend\\EventBooking.Blazor\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T13:38:02.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "EventBooking.API.http",
               "DocumentMoniker": "D:\\c#\\Fullstack_Inl\u00E4mning\\backend\\EventBooking.API\\EventBooking.API.http",
               "RelativeDocumentMoniker": "backend\\EventBooking.API\\EventBooking.API.http",

@@ -32,8 +32,8 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\#/Fullstack_Inlämning/frontend/EventBooking.Blazor/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[D:/c\#/Fullstack_Inlämning/frontend/EventBooking.Blazor/Pages/Events.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/c\#/Fullstack_Inlämning/frontend/EventBooking.Blazor/Pages/Home.razor]
@@ -46,10 +46,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/c\#/Fullstack_Inlämning/frontend/EventBooking.Blazor/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90Rm91bmQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/c\#/Fullstack_Inlämning/frontend/EventBooking.Blazor/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/c\#/Fullstack_Inlämning/frontend/EventBooking.Blazor/_Imports.razor]

@@ -1,0 +1,198 @@
+﻿@page "/events"
+@inject HttpClient Http
+
+<h3>Events</h3>
+
+@if (errorMessage != null)
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+
+@if (events == null)
+{
+    <p>Laddar...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Titel</th>
+                <th>Beskrivning</th>
+                <th>Datum</th>
+                <th>Pris</th>
+                <th>Kapacitet</th>
+                <th>Plats</th>
+                <th>Åtgärder</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ev in events)
+            {
+                <tr>
+                    <td>@ev.Title</td>
+                    <td>@ev.Description</td>
+                    <td>@ev.Date.ToString("yyyy-MM-dd")</td>
+                    <td>@ev.TicketPrice kr</td>
+                    <td>@ev.Capacity</td>
+                    <td>@ev.LocationName</td>
+                    <td>
+                        <button class="btn btn-warning btn-sm" @onclick="() => EditEvent(ev)">Redigera</button>
+                        <button class="btn btn-danger btn-sm" @onclick="() => DeleteEvent(ev.Id)">Ta bort</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<h4>@(editMode ? "Redigera event" : "Lägg till nytt event")</h4>
+
+<div class="mb-3">
+    <label>Titel</label>
+    <input class="form-control mb-2" @bind="form.Title" />
+
+    <label>Beskrivning</label>
+    <input class="form-control mb-2" @bind="form.Description" />
+
+    <label>Datum</label>
+    <input class="form-control mb-2" type="date" @bind="form.Date" />
+
+    <label>Biljettpris</label>
+    <input class="form-control mb-2" type="number" @bind="form.TicketPrice" />
+
+    <label>Kapacitet</label>
+    <input class="form-control mb-2" type="number" @bind="form.Capacity" />
+
+    <label>Plats</label>
+    <select class="form-control mb-2" @bind="form.LocationId">
+        <option value="0">Välj plats</option>
+        @if (locations != null)
+        {
+            @foreach (var loc in locations)
+            {
+                <option value="@loc.Id">@loc.Name</option>
+            }
+        }
+    </select>
+    <button class="btn btn-primary" @onclick="SaveEvent">@(editMode ? "Uppdatera" : "Spara")</button>
+    @if (editMode)
+    {
+        <button class="btn btn-secondary ms-2" @onclick="CancelEdit">Avbryt</button>
+    }
+</div>
+
+@code {
+    private List<EventDto>? events;
+    private List<LocationDto>? locations;
+    private EventDto form = new();
+    private bool editMode = false;
+    private int editId = 0;
+    private string? errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadEvents();
+        await LoadLocations();
+    }
+
+    private async Task LoadEvents()
+    {
+        try
+        {
+            events = await Http.GetFromJsonAsync<List<EventDto>>("api/Events");
+        }
+        catch
+        {
+            errorMessage = "Kunde inte ansluta till API:t!";
+        }
+    }
+
+    private async Task LoadLocations()
+    {
+        try
+        {
+            locations = await Http.GetFromJsonAsync<List<LocationDto>>("api/Locations");
+        }
+        catch
+        {
+            errorMessage = "Kunde inte hämta platser!";
+        }
+    }
+
+    private async Task SaveEvent()
+    {
+        try
+        {
+            if (editMode)
+            {
+                await Http.PutAsJsonAsync($"api/Events/{editId}", form);
+                editMode = false;
+                editId = 0;
+            }
+            else
+            {
+                await Http.PostAsJsonAsync("api/Events", form);
+            }
+            form = new();
+            await LoadEvents();
+        }
+        catch
+        {
+            errorMessage = "Något gick fel!";
+        }
+    }
+
+    private void EditEvent(EventDto ev)
+    {
+        editMode = true;
+        editId = ev.Id;
+        form = new EventDto
+        {
+            Title = ev.Title,
+            Description = ev.Description,
+            Date = ev.Date,
+            TicketPrice = ev.TicketPrice,
+            Capacity = ev.Capacity,
+            LocationId = ev.LocationId
+        };
+    }
+
+    private async Task DeleteEvent(int id)
+    {
+        try
+        {
+            await Http.DeleteAsync($"api/Events/{id}");
+            await LoadEvents();
+        }
+        catch
+        {
+            errorMessage = "Kunde inte ta bort eventet!";
+        }
+    }
+
+    private void CancelEdit()
+    {
+        editMode = false;
+        editId = 0;
+        form = new();
+    }
+
+    public class EventDto
+    {
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public DateTime Date { get; set; } = DateTime.Today;
+        public decimal TicketPrice { get; set; }
+        public int Capacity { get; set; }
+        public int LocationId { get; set; }
+        public string LocationName { get; set; } = string.Empty;
+    }
+
+    public class LocationDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+    }
+}

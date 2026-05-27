@@ -1,11 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\backend",
-    "\\backend\\EventBooking.API\\Properties",
-    "\\backend\\EventBooking.Infrastructure\\Data",
-    "\\backend\\EventBooking.Infrastructure\\Repositories"
+    ""
   ],
-  "SelectedNode": "\\backend",
+  "SelectedNode": "\\EventBooking.slnx",
   "PreviewInSolutionExplorer": false
 }
